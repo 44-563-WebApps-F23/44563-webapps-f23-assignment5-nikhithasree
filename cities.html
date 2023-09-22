@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
             Exploring Cities
@@ -15,10 +15,12 @@
     </head>
     <body>
         <style>
+            /* Custom CSS for styling */
             body {background-color:grey}
-            h1   { font-family:courier}
+            h1   {font-family:courier}
             h1   {color: rgb(53, 10, 244);}
             p    {color: rgb(165, 42, 42)}
+            
         </style>
         <b><h1>Visit cities with Nikhitha Sree Atluri</b></h1>
         <div class="container">
@@ -40,6 +42,6 @@
             </div>
         </div>
         <h4>Cities row breaks first</h4>
-        <p>As I reduce the browser size, I  noticed that the row with city names breaks first because col-md classes are designed for medium-sized screens and col-sm-2 classes are meant for small screens.</p>
+        <p>As I reduce the browser size, the city names breaks first because they are in columns with the "col-md" class. Bootstrap's responsive design adjusts the column sizes based on the screen width,so "col-md" class columns will stack vertically on smaller screens whereas "col-sm-2" class columns will remain in a row longer.</p>
     </body>
 </html>
